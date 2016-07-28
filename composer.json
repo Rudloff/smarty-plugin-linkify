@@ -1,0 +1,20 @@
+{
+	"name": "rudloff/smarty-plugin-linkify",
+	"description": "Smarty modifier that converts URLs in clickable links",
+	"license": "GPL-3.0",
+	"require": {
+		"misd/linkify": "~1.1.2"
+	},
+	"require-dev": {
+		"symfony/var-dumper": "~3.0.1"
+	},
+	"authors": [{
+		"name": "Pierre Rudloff",
+		"email": "contact@rudloff.pro",
+		"homepage": "https://rudloff.pro/",
+		"role": "Developer"
+	}],
+	"autoload": {
+		"files": ["modifier.linkify.php"]
+	}
+}
