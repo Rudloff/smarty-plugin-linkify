@@ -1,7 +1,8 @@
 <?php
+
 namespace Smarty_Modifier_linkify\Test;
 
-class LinkifyTest extends \PHPUnit_Framework_TestCase
+class linkifyTest extends \PHPUnit_Framework_TestCase
 {
     public function testLinkifyModifier()
     {
